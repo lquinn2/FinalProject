@@ -14,8 +14,8 @@ class MetalViewController: UITableViewController, productPageDelegate {
     var name: String?
     var price: Double?
     var products: [Straw] =
-        [Straw(image: #imageLiteral(resourceName: "metalstraight"), name: "Stainless Steel - Straight pipe", price: 9.99),
-         Straw(image: #imageLiteral(resourceName: "metalbent"), name: "Stainless Steel - Bent Pipe", price: 9.99)]
+        [Straw(image: #imageLiteral(resourceName: "metalstraight"), name: "Stainless Steel (Straight pipe)", price: 9.99),
+         Straw(image: #imageLiteral(resourceName: "metalbent"), name: "Stainless Steel (Bent Pipe)", price: 9.99)]
     
     override func viewDidLoad() {
     }
