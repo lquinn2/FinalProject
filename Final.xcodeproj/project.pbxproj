@@ -20,6 +20,7 @@
 		3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA2A224C318F0060829A /* SiliconeViewController.swift */; };
 		3F63AA2D224C319B0060829A /* CollapsibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA2C224C319B0060829A /* CollapsibleViewController.swift */; };
 		3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA24224C31650060829A /* MetalViewController.swift */; };
+		3F63AA32224C4EA00060829A /* Straw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA31224C4EA00060829A /* Straw.swift */; };
 		3F79FE4F22498D3200A4CAB1 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F79FE4122498D3200A4CAB1 /* Contents.json */; };
 /* End PBXBuildFile section */
 
@@ -54,12 +55,13 @@
 		3F08EDA4222F54CB007DA377 /* FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F08EDA8222F54CB007DA377 /* FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITests.swift; sourceTree = "<group>"; };
 		3F08EDAA222F54CB007DA377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; };
+		3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		3F63AA24224C31650060829A /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
 		3F63AA26224C31730060829A /* BambooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BambooViewController.swift; sourceTree = "<group>"; };
 		3F63AA28224C31840060829A /* GlassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassViewController.swift; sourceTree = "<group>"; };
 		3F63AA2A224C318F0060829A /* SiliconeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiliconeViewController.swift; sourceTree = "<group>"; };
 		3F63AA2C224C319B0060829A /* CollapsibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleViewController.swift; sourceTree = "<group>"; };
+		3F63AA31224C4EA00060829A /* Straw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Straw.swift; sourceTree = "<group>"; };
 		3F79FE4122498D3200A4CAB1 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				3F08ED88222F54CB007DA377 /* AppDelegate.swift */,
 				3F08ED8A222F54CB007DA377 /* MainViewController.swift */,
 				3F08ED8C222F54CB007DA377 /* Main.storyboard */,
+				3F63AA31224C4EA00060829A /* Straw.swift */,
 				3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */,
 				3F63AA24224C31650060829A /* MetalViewController.swift */,
 				3F63AA26224C31730060829A /* BambooViewController.swift */,
@@ -289,6 +292,7 @@
 				3F08ED89222F54CB007DA377 /* AppDelegate.swift in Sources */,
 				3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */,
 				3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */,
+				3F63AA32224C4EA00060829A /* Straw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

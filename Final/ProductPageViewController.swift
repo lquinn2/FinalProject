@@ -23,8 +23,9 @@ class ProductPageViewController : UIViewController {
         super.viewDidLoad()
         updateContent()
         ProductQuantity.text = "1"
-        print((delegate?.name)!)
-        print((delegate?.price)!)
+        print(delegate?.image! as Any)
+        print(delegate?.name! as Any)
+        print(delegate?.price! as Any)
     }
     
     @IBOutlet weak var ProductImage: UIImageView!
@@ -38,9 +39,12 @@ class ProductPageViewController : UIViewController {
     
     
     func updateContent() {
+        // Default Values
         var unwrappedImage: UIImage = #imageLiteral(resourceName: "plasticstraws")
         var unwrappedName: String = "---"
-        var unwrappedPrice: Double = 1.00
+        var unwrappedPrice: Double = 0.00
+        
+        // Optional Unwrapping
         if let _ = delegate?.image {
             unwrappedImage = (delegate?.image)!
         }
@@ -50,7 +54,8 @@ class ProductPageViewController : UIViewController {
         if let _ = delegate?.price {
             unwrappedPrice = (delegate?.price)!
         }
-        //
+        
+        // Set Values
         ProductImage.image = unwrappedImage
         ProductName.text = unwrappedName
         ProductPrice.text = "$" + String(format:"%.2f", unwrappedPrice)
