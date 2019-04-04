@@ -22,6 +22,9 @@
 		3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA24224C31650060829A /* MetalViewController.swift */; };
 		3F63AA32224C4EA00060829A /* Straw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA31224C4EA00060829A /* Straw.swift */; };
 		3F79FE4F22498D3200A4CAB1 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F79FE4122498D3200A4CAB1 /* Contents.json */; };
+		3FC032C0225562E5009E0F24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032BF225562E5009E0F24 /* LoginViewController.swift */; };
+		3FC032C722556745009E0F24 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032C522556745009E0F24 /* UserModel.xcdatamodeld */; };
+		3FC032D522557084009E0F24 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032D422557084009E0F24 /* PersistentContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		3F63AA2C224C319B0060829A /* CollapsibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleViewController.swift; sourceTree = "<group>"; };
 		3F63AA31224C4EA00060829A /* Straw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Straw.swift; sourceTree = "<group>"; };
 		3F79FE4122498D3200A4CAB1 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = "<group>"; };
+		3FC032BF225562E5009E0F24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3FC032C622556745009E0F24 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
+		3FC032D422557084009E0F24 /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		3F08ED7C222F54CB007DA377 = {
 			isa = PBXGroup;
 			children = (
+				3FC032D422557084009E0F24 /* PersistentContainer.swift */,
 				3F08ED87222F54CB007DA377 /* Final */,
 				3F08ED9C222F54CB007DA377 /* FinalTests */,
 				3F08EDA7222F54CB007DA377 /* FinalUITests */,
@@ -113,6 +120,8 @@
 		3F08ED87222F54CB007DA377 /* Final */ = {
 			isa = PBXGroup;
 			children = (
+				3FC032C522556745009E0F24 /* UserModel.xcdatamodeld */,
+				3FC032BF225562E5009E0F24 /* LoginViewController.swift */,
 				3F08ED88222F54CB007DA377 /* AppDelegate.swift */,
 				3F08ED8A222F54CB007DA377 /* MainViewController.swift */,
 				3F08ED8C222F54CB007DA377 /* Main.storyboard */,
@@ -285,6 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F63AA23224C2CEC0060829A /* ProductPageViewController.swift in Sources */,
+				3FC032C0225562E5009E0F24 /* LoginViewController.swift in Sources */,
+				3FC032C722556745009E0F24 /* UserModel.xcdatamodeld in Sources */,
+				3FC032D522557084009E0F24 /* PersistentContainer.swift in Sources */,
 				3F08ED8B222F54CB007DA377 /* MainViewController.swift in Sources */,
 				3F63AA2D224C319B0060829A /* CollapsibleViewController.swift in Sources */,
 				3F63AA29224C31840060829A /* GlassViewController.swift in Sources */,
@@ -584,6 +596,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FC032C522556745009E0F24 /* UserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FC032C622556745009E0F24 /* UserModel.xcdatamodel */,
+			);
+			currentVersion = 3FC032C622556745009E0F24 /* UserModel.xcdatamodel */;
+			path = UserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3F08ED7D222F54CB007DA377 /* Project object */;
 }
