@@ -14,12 +14,15 @@
 		3F08ED93222F54CB007DA377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F08ED91222F54CB007DA377 /* LaunchScreen.storyboard */; };
 		3F08ED9E222F54CB007DA377 /* FinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08ED9D222F54CB007DA377 /* FinalTests.swift */; };
 		3F08EDA9222F54CB007DA377 /* FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F08EDA8222F54CB007DA377 /* FinalUITests.swift */; };
+		3F313B48225E980100CE8024 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B47225E980100CE8024 /* SignUpViewController.swift */; };
+		3F313B4F225EB05400CE8024 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B4D225EB05400CE8024 /* User+CoreDataClass.swift */; };
+		3F313B50225EB05400CE8024 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B4E225EB05400CE8024 /* User+CoreDataProperties.swift */; };
 		3F63AA23224C2CEC0060829A /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */; };
 		3F63AA27224C31730060829A /* BambooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA26224C31730060829A /* BambooViewController.swift */; };
 		3F63AA29224C31840060829A /* GlassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA28224C31840060829A /* GlassViewController.swift */; };
 		3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA2A224C318F0060829A /* SiliconeViewController.swift */; };
 		3F63AA2D224C319B0060829A /* CollapsibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA2C224C319B0060829A /* CollapsibleViewController.swift */; };
-		3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA24224C31650060829A /* MetalViewController.swift */; };
+		3F63AA30224C32E20060829A /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA24224C31650060829A /*  .swift */; };
 		3F63AA32224C4EA00060829A /* Straw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA31224C4EA00060829A /* Straw.swift */; };
 		3F79FE4F22498D3200A4CAB1 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F79FE4122498D3200A4CAB1 /* Contents.json */; };
 		3FC032C0225562E5009E0F24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032BF225562E5009E0F24 /* LoginViewController.swift */; };
@@ -58,8 +61,11 @@
 		3F08EDA4222F54CB007DA377 /* FinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F08EDA8222F54CB007DA377 /* FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalUITests.swift; sourceTree = "<group>"; };
 		3F08EDAA222F54CB007DA377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F313B47225E980100CE8024 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3F313B4D225EB05400CE8024 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F313B4E225EB05400CE8024 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		3F63AA24224C31650060829A /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
+		3F63AA24224C31650060829A /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
 		3F63AA26224C31730060829A /* BambooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BambooViewController.swift; sourceTree = "<group>"; };
 		3F63AA28224C31840060829A /* GlassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassViewController.swift; sourceTree = "<group>"; };
 		3F63AA2A224C318F0060829A /* SiliconeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiliconeViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +105,8 @@
 		3F08ED7C222F54CB007DA377 = {
 			isa = PBXGroup;
 			children = (
+				3F313B4D225EB05400CE8024 /* User+CoreDataClass.swift */,
+				3F313B4E225EB05400CE8024 /* User+CoreDataProperties.swift */,
 				3FC032D422557084009E0F24 /* PersistentContainer.swift */,
 				3F08ED87222F54CB007DA377 /* Final */,
 				3F08ED9C222F54CB007DA377 /* FinalTests */,
@@ -127,7 +135,7 @@
 				3F08ED8C222F54CB007DA377 /* Main.storyboard */,
 				3F63AA31224C4EA00060829A /* Straw.swift */,
 				3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */,
-				3F63AA24224C31650060829A /* MetalViewController.swift */,
+				3F63AA24224C31650060829A /*  .swift */,
 				3F63AA26224C31730060829A /* BambooViewController.swift */,
 				3F63AA28224C31840060829A /* GlassViewController.swift */,
 				3F63AA2A224C318F0060829A /* SiliconeViewController.swift */,
@@ -136,6 +144,7 @@
 				3F79FE4122498D3200A4CAB1 /* Contents.json */,
 				3F08ED91222F54CB007DA377 /* LaunchScreen.storyboard */,
 				3F08ED94222F54CB007DA377 /* Info.plist */,
+				3F313B47225E980100CE8024 /* SignUpViewController.swift */,
 			);
 			path = Final;
 			sourceTree = "<group>";
@@ -299,11 +308,14 @@
 				3FC032D522557084009E0F24 /* PersistentContainer.swift in Sources */,
 				3F08ED8B222F54CB007DA377 /* MainViewController.swift in Sources */,
 				3F63AA2D224C319B0060829A /* CollapsibleViewController.swift in Sources */,
+				3F313B4F225EB05400CE8024 /* User+CoreDataClass.swift in Sources */,
 				3F63AA29224C31840060829A /* GlassViewController.swift in Sources */,
+				3F313B50225EB05400CE8024 /* User+CoreDataProperties.swift in Sources */,
 				3F63AA27224C31730060829A /* BambooViewController.swift in Sources */,
 				3F08ED89222F54CB007DA377 /* AppDelegate.swift in Sources */,
-				3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */,
+				3F63AA30224C32E20060829A /*  .swift in Sources */,
 				3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */,
+				3F313B48225E980100CE8024 /* SignUpViewController.swift in Sources */,
 				3F63AA32224C4EA00060829A /* Straw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
