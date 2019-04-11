@@ -23,5 +23,6 @@ extension User {
     @NSManaged public var lastName: String?
     @NSManaged public var password: String?
     @NSManaged public var username: String?
+    @NSManaged public var relationship: Item?
 
 }

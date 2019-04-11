@@ -17,6 +17,9 @@
 		3F313B48225E980100CE8024 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B47225E980100CE8024 /* SignUpViewController.swift */; };
 		3F313B4F225EB05400CE8024 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B4D225EB05400CE8024 /* User+CoreDataClass.swift */; };
 		3F313B50225EB05400CE8024 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B4E225EB05400CE8024 /* User+CoreDataProperties.swift */; };
+		3F313B57225EB7D800CE8024 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B55225EB7D800CE8024 /* Item+CoreDataClass.swift */; };
+		3F313B58225EB7D800CE8024 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B56225EB7D800CE8024 /* Item+CoreDataProperties.swift */; };
+		3F313B5A225EB90800CE8024 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F313B59225EB90800CE8024 /* Item.swift */; };
 		3F63AA23224C2CEC0060829A /* ProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */; };
 		3F63AA27224C31730060829A /* BambooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA26224C31730060829A /* BambooViewController.swift */; };
 		3F63AA29224C31840060829A /* GlassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA28224C31840060829A /* GlassViewController.swift */; };
@@ -64,6 +67,9 @@
 		3F313B47225E980100CE8024 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3F313B4D225EB05400CE8024 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		3F313B4E225EB05400CE8024 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F313B55225EB7D800CE8024 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3F313B56225EB7D800CE8024 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F313B59225EB90800CE8024 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		3F63AA24224C31650060829A /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
 		3F63AA26224C31730060829A /* BambooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BambooViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +111,8 @@
 		3F08ED7C222F54CB007DA377 = {
 			isa = PBXGroup;
 			children = (
+				3F313B55225EB7D800CE8024 /* Item+CoreDataClass.swift */,
+				3F313B56225EB7D800CE8024 /* Item+CoreDataProperties.swift */,
 				3F313B4D225EB05400CE8024 /* User+CoreDataClass.swift */,
 				3F313B4E225EB05400CE8024 /* User+CoreDataProperties.swift */,
 				3FC032D422557084009E0F24 /* PersistentContainer.swift */,
@@ -132,6 +140,7 @@
 				3FC032BF225562E5009E0F24 /* LoginViewController.swift */,
 				3F08ED88222F54CB007DA377 /* AppDelegate.swift */,
 				3F08ED8A222F54CB007DA377 /* MainViewController.swift */,
+				3F313B59225EB90800CE8024 /* Item.swift */,
 				3F08ED8C222F54CB007DA377 /* Main.storyboard */,
 				3F63AA31224C4EA00060829A /* Straw.swift */,
 				3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */,
@@ -308,14 +317,17 @@
 				3FC032D522557084009E0F24 /* PersistentContainer.swift in Sources */,
 				3F08ED8B222F54CB007DA377 /* MainViewController.swift in Sources */,
 				3F63AA2D224C319B0060829A /* CollapsibleViewController.swift in Sources */,
+				3F313B57225EB7D800CE8024 /* Item+CoreDataClass.swift in Sources */,
 				3F313B4F225EB05400CE8024 /* User+CoreDataClass.swift in Sources */,
 				3F63AA29224C31840060829A /* GlassViewController.swift in Sources */,
 				3F313B50225EB05400CE8024 /* User+CoreDataProperties.swift in Sources */,
+				3F313B5A225EB90800CE8024 /* Item.swift in Sources */,
 				3F63AA27224C31730060829A /* BambooViewController.swift in Sources */,
 				3F08ED89222F54CB007DA377 /* AppDelegate.swift in Sources */,
 				3F63AA30224C32E20060829A /*  .swift in Sources */,
 				3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */,
 				3F313B48225E980100CE8024 /* SignUpViewController.swift in Sources */,
+				3F313B58225EB7D800CE8024 /* Item+CoreDataProperties.swift in Sources */,
 				3F63AA32224C4EA00060829A /* Straw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
