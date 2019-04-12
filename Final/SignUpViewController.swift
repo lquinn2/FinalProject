@@ -43,7 +43,7 @@ class SignUpViewController: UIViewController {
         self.email = emailField.text!
         self.address = addressField.text!
         
-        let alert = UIAlertController(title: "Invalid Inputs", message: "Please fill in all form field correctly", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Invalid Inputs", message: "Please fill in all form fields correctly", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Okay", style: .default, handler: nil))
         
         var allFieldsValidated: Bool = true
@@ -110,6 +110,15 @@ class SignUpViewController: UIViewController {
         
         do {
             try context.save()
+            
+            let hudView = HudView.hud(inView: navigationController!.view, animated: true)
+            hudView.text = " User Created \n Successfully"
+            let delayInSeconds = 0.6
+            DispatchQueue.main.asyncAfter(deadline: .now() + delayInSeconds,
+                                          execute: {
+                                            hudView.hide()
+                                            self.navigationController?.popViewController(animated: true)
+            })
         } catch {
             print ("Failed saving")
             self.present(alert, animated: true)

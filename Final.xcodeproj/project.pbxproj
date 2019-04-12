@@ -25,9 +25,11 @@
 		3F63AA29224C31840060829A /* GlassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA28224C31840060829A /* GlassViewController.swift */; };
 		3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA2A224C318F0060829A /* SiliconeViewController.swift */; };
 		3F63AA2D224C319B0060829A /* CollapsibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA2C224C319B0060829A /* CollapsibleViewController.swift */; };
-		3F63AA30224C32E20060829A /*  .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA24224C31650060829A /*  .swift */; };
+		3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA24224C31650060829A /* MetalViewController.swift */; };
 		3F63AA32224C4EA00060829A /* Straw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63AA31224C4EA00060829A /* Straw.swift */; };
 		3F79FE4F22498D3200A4CAB1 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 3F79FE4122498D3200A4CAB1 /* Contents.json */; };
+		3FB0992822613B6200BA33C5 /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0992722613B6200BA33C5 /* HudView.swift */; };
+		3FB0992A22613EF200BA33C5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0992922613EF200BA33C5 /* ProfileViewController.swift */; };
 		3FC032C0225562E5009E0F24 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032BF225562E5009E0F24 /* LoginViewController.swift */; };
 		3FC032C722556745009E0F24 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032C522556745009E0F24 /* UserModel.xcdatamodeld */; };
 		3FC032D522557084009E0F24 /* PersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC032D422557084009E0F24 /* PersistentContainer.swift */; };
@@ -71,13 +73,15 @@
 		3F313B56225EB7D800CE8024 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3F313B59225EB90800CE8024 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPageViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		3F63AA24224C31650060829A /*  .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " .swift"; sourceTree = "<group>"; };
+		3F63AA24224C31650060829A /* MetalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalViewController.swift; sourceTree = "<group>"; };
 		3F63AA26224C31730060829A /* BambooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BambooViewController.swift; sourceTree = "<group>"; };
 		3F63AA28224C31840060829A /* GlassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassViewController.swift; sourceTree = "<group>"; };
 		3F63AA2A224C318F0060829A /* SiliconeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiliconeViewController.swift; sourceTree = "<group>"; };
 		3F63AA2C224C319B0060829A /* CollapsibleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleViewController.swift; sourceTree = "<group>"; };
 		3F63AA31224C4EA00060829A /* Straw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Straw.swift; sourceTree = "<group>"; };
 		3F79FE4122498D3200A4CAB1 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Contents.json; path = Assets.xcassets/Contents.json; sourceTree = "<group>"; };
+		3FB0992722613B6200BA33C5 /* HudView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudView.swift; sourceTree = "<group>"; };
+		3FB0992922613EF200BA33C5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3FC032BF225562E5009E0F24 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3FC032C622556745009E0F24 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 		3FC032D422557084009E0F24 /* PersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentContainer.swift; sourceTree = "<group>"; };
@@ -142,9 +146,11 @@
 				3F08ED8A222F54CB007DA377 /* MainViewController.swift */,
 				3F313B59225EB90800CE8024 /* Item.swift */,
 				3F08ED8C222F54CB007DA377 /* Main.storyboard */,
+				3FB0992922613EF200BA33C5 /* ProfileViewController.swift */,
+				3FB0992722613B6200BA33C5 /* HudView.swift */,
 				3F63AA31224C4EA00060829A /* Straw.swift */,
 				3F63AA22224C2CEC0060829A /* ProductPageViewController.swift */,
-				3F63AA24224C31650060829A /*  .swift */,
+				3F63AA24224C31650060829A /* MetalViewController.swift */,
 				3F63AA26224C31730060829A /* BambooViewController.swift */,
 				3F63AA28224C31840060829A /* GlassViewController.swift */,
 				3F63AA2A224C318F0060829A /* SiliconeViewController.swift */,
@@ -313,6 +319,7 @@
 			files = (
 				3F63AA23224C2CEC0060829A /* ProductPageViewController.swift in Sources */,
 				3FC032C0225562E5009E0F24 /* LoginViewController.swift in Sources */,
+				3FB0992A22613EF200BA33C5 /* ProfileViewController.swift in Sources */,
 				3FC032C722556745009E0F24 /* UserModel.xcdatamodeld in Sources */,
 				3FC032D522557084009E0F24 /* PersistentContainer.swift in Sources */,
 				3F08ED8B222F54CB007DA377 /* MainViewController.swift in Sources */,
@@ -324,11 +331,12 @@
 				3F313B5A225EB90800CE8024 /* Item.swift in Sources */,
 				3F63AA27224C31730060829A /* BambooViewController.swift in Sources */,
 				3F08ED89222F54CB007DA377 /* AppDelegate.swift in Sources */,
-				3F63AA30224C32E20060829A /*  .swift in Sources */,
+				3F63AA30224C32E20060829A /* MetalViewController.swift in Sources */,
 				3F63AA2B224C318F0060829A /* SiliconeViewController.swift in Sources */,
 				3F313B48225E980100CE8024 /* SignUpViewController.swift in Sources */,
 				3F313B58225EB7D800CE8024 /* Item+CoreDataProperties.swift in Sources */,
 				3F63AA32224C4EA00060829A /* Straw.swift in Sources */,
+				3FB0992822613B6200BA33C5 /* HudView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
